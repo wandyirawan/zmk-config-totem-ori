@@ -86,8 +86,8 @@
 
             bindings = <
            &kp Q       &kp W       &kp F        &kp P        &kp B        &kp J    &kp L        &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp M    &mt RSHFT N  &mt RCTRL E  &mt RALT I  &mt RGUI O
-&kp GRAVE  &kp Z       &kp X       &kp C        &kp D        &kp B        &kp K    &kp H        &kp COMMA    &kp DOT     &kp FSLH    &kp SINGLE_QUOTE
+           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp M    &mt RSHFT N  &mt RCTRL E  &mt LALT I  &mt LGUI O
+&kp GRAVE  &kp Z       &kp X       &kp C        &kp D        &kp V        &kp K    &kp H        &kp COMMA    &kp DOT     &kp FSLH    &kp SINGLE_QUOTE
                                    &kp DEL      &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 ESC    &kp BSPC
             >;
         };
