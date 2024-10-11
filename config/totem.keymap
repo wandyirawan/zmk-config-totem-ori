@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q       &kp W       &kp F        &kp P        &kp B        &kp J    &kp L        &kp U        &kp Y       &kp SEMI
-           &mt LGUI A  &mt LALT R  &mt LCTRL S  &mt LSHFT T  &kp D        &kp M    &mt RSHFT N  &mt RCTRL E  &mt LALT I  &mt LGUI O
-&kp GRAVE  &kp Z       &kp X       &kp C        &kp D        &kp V        &kp K    &kp H        &kp COMMA    &kp DOT     &kp FSLH    &kp SINGLE_QUOTE
-                                   &kp DEL      &lt 1 TAB    &kp SPACE    &kp RET  &lt 2 ESC    &kp BSPC
+           &kp Q  &kp W  &kp F            &kp P           &kp B                  &kp J           &kp L            &kp U            &kp Y    &kp SEMI
+           &kp A  &kp R  &kp S            &kp T           &kp D                  &kp M           &kp N            &kp E            &kp I    &kp O
+&kp GRAVE  &kp Z  &kp X  &kp C            &kp D           &kp B                  &kp K           &kp H            &kp COMMA        &kp DOT  &kp FSLH  &kp SINGLE_QUOTE
+                         &lt 1 BACKSPACE  &mt LGUI SPACE  &mt LEFT_ALT ESCAPE    &mt LSHIFT TAB  &mt LCTRL ENTER  &lt 2 BACKSPACE
             >;
         };
 
@@ -109,10 +109,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                               &trans    &trans     &trans      &mo 3     &kp KP_N0  &trans
+        &kp ESC    &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp N7     &kp N8  &kp N9  &kp KP_PLUS
+        &kp LSHFT  &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp N4     &kp N5  &kp N6  &kp KP_MINUS
+&trans  &kp DEL    &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp N1     &kp N2  &kp N3  &kp KP_MULTIPLY  &trans
+                               &trans    &trans     &trans      &mo 3     &kp KP_N0  &kp N0
             >;
         };
 
@@ -133,10 +133,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT     &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
-        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans        &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
-&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &kp K_MUTE    &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
-                                  &trans     &gif      &mo 3         &trans        &trans          &trans
+        &kp EXCL     &kp AT       &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET     &kp AMPS        &kp RA(U)   &kp SQT     &kp DQT
+        &kp RA(A)    &trans       &kp RA(S)  &trans    &trans       &kp C_MUTE    &kp LS(RA(N4))  &kp RA(N5)  &kp RA(N4)  &kp RA(O)
+&trans  &kp RA(F18)  &kp RA(F19)  &trans     &trans    &trans       &kp C_VOL_DN  &kp C_VOL_UP    &kp C_PREV  &kp C_NEXT  &kp BSLH   &trans
+                                  &trans     &gif      &mo 3        &trans        &trans          &trans
             >;
         };
 
@@ -166,10 +166,10 @@
 
         canary_layer {
             bindings = <
-           &kp W       &kp L       &kp Y        &kp P         &kp B        &kp Z      &kp F         &kp O          &kp U         &kp SQT
-           &mt LGUI C  &mt LALT R  &mt LCTRL S  &mt LSHIFT T  &kp G        &kp M      &mt LSHIFT N  &mt LCTRL E    &mt LSHIFT I  &mt LGUI A
-&kp GRAVE  &kp Q       &kp J       &kp V        &kp D         &kp K        &kp X      &kp H         &kp SLASH      &kp COMMA     &kp PERIOD  &kp SEMICOLON
-                                   &kp DEL      &lt 1 TAB     &kp SPACE    &kp ENTER  &lt 2 ESC     &kp BACKSPACE
+           &kp W  &kp L  &kp Y            &kp P           &kp B              &kp Z           &kp F            &kp O            &kp U      &kp SQT
+           &kp C  &kp R  &kp S            &kp T           &kp G              &kp M           &kp N            &kp E            &kp I      &kp A
+&kp GRAVE  &kp Q  &kp J  &kp V            &kp D           &kp K              &kp X           &kp H            &kp SLASH        &kp COMMA  &kp PERIOD  &kp SEMICOLON
+                         &lt 1 BACKSPACE  &mt LGUI SPACE  &mt LALT ESCAPE    &mt LSHIFT TAB  &mt LCTRL ENTER  &lt 2 BACKSPACE
             >;
         };
 
