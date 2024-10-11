@@ -85,10 +85,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp F            &kp P           &kp B                  &kp J           &kp L            &kp U            &kp Y    &kp SEMI
-           &kp A  &kp R  &kp S            &kp T           &kp D                  &kp M           &kp N            &kp E            &kp I    &kp O
-&kp GRAVE  &kp Z  &kp X  &kp C            &kp D           &kp B                  &kp K           &kp H            &kp COMMA        &kp DOT  &kp FSLH  &kp SINGLE_QUOTE
-                         &lt 1 BACKSPACE  &mt LGUI SPACE  &mt LEFT_ALT ESCAPE    &mt LSHIFT TAB  &mt LCTRL ENTER  &lt 2 BACKSPACE
+           &kp Q  &kp W  &kp F            &kp P            &kp B                 &kp J          &kp L            &kp U            &kp Y    &kp SEMI
+           &kp A  &kp R  &kp S            &kp T            &kp D                 &kp M          &kp N            &kp E            &kp I    &kp O
+&kp GRAVE  &kp Z  &kp X  &kp C            &kp D            &kp B                 &kp K          &kp H            &kp COMMA        &kp DOT  &kp FSLH  &kp SINGLE_QUOTE
+                         &lt 1 BACKSPACE  &mt LGUI ESCAPE  &mt LEFT_ALT SPACE    &mt LCTRL TAB  &mt LSHFT ENTER  &lt 2 BACKSPACE
             >;
         };
 
@@ -166,10 +166,10 @@
 
         canary_layer {
             bindings = <
-           &kp W  &kp L  &kp Y            &kp P           &kp B              &kp Z           &kp F            &kp O            &kp U      &kp SQT
-           &kp C  &kp R  &kp S            &kp T           &kp G              &kp M           &kp N            &kp E            &kp I      &kp A
-&kp GRAVE  &kp Q  &kp J  &kp V            &kp D           &kp K              &kp X           &kp H            &kp SLASH        &kp COMMA  &kp PERIOD  &kp SEMICOLON
-                         &lt 1 BACKSPACE  &mt LGUI SPACE  &mt LALT ESCAPE    &mt LSHIFT TAB  &mt LCTRL ENTER  &lt 2 BACKSPACE
+           &kp W  &kp L  &kp Y            &kp P            &kp B             &kp Z          &kp F            &kp O            &kp U      &kp SQT
+           &kp C  &kp R  &kp S            &kp T            &kp G             &kp M          &kp N            &kp E            &kp I      &kp A
+&kp GRAVE  &kp Q  &kp J  &kp V            &kp D            &kp K             &kp X          &kp H            &kp SLASH        &kp COMMA  &kp PERIOD  &kp SEMICOLON
+                         &lt 1 BACKSPACE  &mt LGUI ESCAPE  &mt LALT SPACE    &mt LCTRL TAB  &mt LSHFT ENTER  &lt 2 BACKSPACE
             >;
         };
 
