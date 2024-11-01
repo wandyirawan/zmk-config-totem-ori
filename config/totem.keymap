@@ -39,7 +39,7 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
+        combo_cnr {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
             bindings = <&tog 4>;
@@ -68,28 +68,15 @@
 
         // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
-        base_layer {
-            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+        canary_layer {
+            bindings = <
+           &kp W  &kp L  &kp Y             &kp P         &kp B             &kp Z            &kp F      &kp O                     &kp U      &kp SQT
+           &kp C  &kp R  &kp S             &kp T         &kp G             &kp M            &kp N      &kp E                     &kp I      &kp A
+&kp GRAVE  &kp Q  &kp J  &kp V             &kp D         &kp K             &kp X            &kp H      &kp SLASH                 &kp COMMA  &kp PERIOD  &kp SEMICOLON
+                         &mt LEFT_GUI DEL  &lt 1 ESCAPE  &mt LALT SPACE    &mt LCTRL ENTER  &lt 2 TAB  &mt LEFT_SHIFT BACKSPACE
+            >;
 
             label = "BASE";
-
-            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-            //             ┃     Q     ┃     W     ┃     F     ┃     P     ┃     G     ┃   ┃     J     ┃     L     ┃     U     ┃     Y     ┃     ;     ┃
-            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-            //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     D     ┃   ┃     H     ┃     N     ┃     E     ┃     I     ┃     O     ┃
-            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-            // ┃     Q     ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃     \     ┃
-            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-            //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
-            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-
-            bindings = <
-           &kp Q  &kp W  &kp F             &kp P         &kp B                 &kp J            &kp L      &kp U                     &kp Y    &kp SEMI
-           &kp A  &kp R  &kp S             &kp T         &kp D                 &kp M            &kp N      &kp E                     &kp I    &kp O
-&kp GRAVE  &kp Z  &kp X  &kp C             &kp D         &kp B                 &kp K            &kp H      &kp COMMA                 &kp DOT  &kp FSLH  &kp SINGLE_QUOTE
-                         &mt LEFT_GUI DEL  &lt 1 ESCAPE  &mt LEFT_ALT SPACE    &mt LCTRL ENTER  &lt 2 TAB  &mt LEFT_SHIFT BACKSPACE
-            >;
         };
 
         nav_layer {
@@ -164,12 +151,27 @@
             >;
         };
 
-        canary_layer {
+        colemak_layer {
+            // ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+
+            label = "MOD";
+
+            // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+            //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
+            //             ┃     Q     ┃     W     ┃     F     ┃     P     ┃     G     ┃   ┃     J     ┃     L     ┃     U     ┃     Y     ┃     ;     ┃
+            //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
+            //             ┃     A     ┃     R     ┃     S     ┃     T     ┃     D     ┃   ┃     H     ┃     N     ┃     E     ┃     I     ┃     O     ┃
+            // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
+            // ┃     Q     ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     K     ┃     M     ┃     ,     ┃     .     ┃     /     ┃     \     ┃
+            // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+            //                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃           ┃   BSPC    ┃
+            //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
+
             bindings = <
-           &kp W  &kp L  &kp Y             &kp P         &kp B             &kp Z            &kp F      &kp O                     &kp U      &kp SQT
-           &kp C  &kp R  &kp S             &kp T         &kp G             &kp M            &kp N      &kp E                     &kp I      &kp A
-&kp GRAVE  &kp Q  &kp J  &kp V             &kp D         &kp K             &kp X            &kp H      &kp SLASH                 &kp COMMA  &kp PERIOD  &kp SEMICOLON
-                         &mt LEFT_GUI DEL  &lt 1 ESCAPE  &mt LALT SPACE    &mt LCTRL ENTER  &lt 2 TAB  &mt LEFT_SHIFT BACKSPACE
+           &kp Q  &kp W  &kp F             &kp P         &kp B                 &kp J            &kp L      &kp U                     &kp Y    &kp SEMI
+           &kp A  &kp R  &kp S             &kp T         &kp D                 &kp M            &kp N      &kp E                     &kp I    &kp O
+&kp GRAVE  &kp Z  &kp X  &kp C             &kp D         &kp B                 &kp K            &kp H      &kp COMMA                 &kp DOT  &kp FSLH  &kp SINGLE_QUOTE
+                         &mt LEFT_GUI DEL  &lt 1 ESCAPE  &mt LEFT_ALT SPACE    &mt LCTRL ENTER  &lt 2 TAB  &mt LEFT_SHIFT BACKSPACE
             >;
         };
 
